@@ -16,7 +16,7 @@ const MainApp = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Grid container className={styles.main}>
+      <div  className={styles.main}>
         <div item xs={6} className={styles.left}>
           <div className={styles.atas}>
             <img className={styles.logo} src='https://pbs.twimg.com/media/FE3pM9SVUAMmS-P?format=png&name=orig'/>
@@ -37,7 +37,7 @@ const MainApp = () => {
               <div className={styles.boxIsi}>
                 <div className={styles.boxTitle}>
                   <h5 className={styles.docs}>Documentation <span><i></i></span></h5>
-                  <ArrowForwardIcon />
+                  <img className={styles.arrow} src='https://pbs.twimg.com/media/FFX4V4gVQAEuJ_I?format=png&name=orig' />
                 </div>
                 <p className={styles.ex}>Find in-depth information about Node.js features and API.</p>
               </div>
@@ -46,14 +46,14 @@ const MainApp = () => {
               <div className={styles.boxIsi}>
                 <div className={styles.boxTitle}>
                   <h5 className={styles.docs}>Examples <span><i></i></span></h5>
-                  <ArrowForwardIcon />
+                  <img className={styles.arrow} src='https://pbs.twimg.com/media/FFX4V4gVQAEuJ_I?format=png&name=orig' />
                 </div>
                 <p className={styles.ex}>Discover and deploy boilerplate example Node.js projects.</p>
               </div>
             </a>
           </div>
         </div>
-      </Grid>
+      </div>
 
 
     </div>

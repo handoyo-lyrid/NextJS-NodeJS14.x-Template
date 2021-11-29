@@ -40,6 +40,7 @@
   margin-bottom: 40px;
   padding: 0;
   text-align: left;
+  user-select: none;
 }
 
 .title {
@@ -60,6 +61,7 @@
 
 .mascot {
   width: 550px;
+  user-select: none;
 }
 
 .right {
@@ -103,6 +105,11 @@
   color: #444444;
   margin: 0;
   padding: 7px 0;
+}
+
+.arrow {
+  width: 20px;
+  user-select: none;
 }
 
 .ex {
