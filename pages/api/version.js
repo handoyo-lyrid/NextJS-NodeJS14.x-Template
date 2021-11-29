@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    'NodeJS Version': process.version,
-    'Cloud Environment': process.env.CLOUD_ENV
+    'Node.js version': process.version,
+    'Cloud environment': process.env.CLOUD_ENV
   })
 }
