@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
-import {useState} from "react";
-import logo from '../public/assets/img/logo.png'
-import {Grid, Icon} from "@mui/material";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 
 
 const MainApp = () => {

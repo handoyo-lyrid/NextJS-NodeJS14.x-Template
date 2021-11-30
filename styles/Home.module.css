@@ -21,7 +21,6 @@
 
 .left {
   width: 50%;
-  /*outline: 2px solid red;*/
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -31,7 +30,6 @@
 
 .atas {
   padding-left: 350px;
-  /*outline: 2px solid red;*/
 }
 
 .logo {
@@ -67,11 +65,9 @@
 .right {
   width: 50%;
   display: flex;
-  /*margin-left: 200px;*/
 }
 
 .docsEx {
-  /*outline: 2px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,7 +124,6 @@
 
   .atas {
     padding-left: 275px;
-    /*outline: 2px solid red;*/
   }
 
   .logo {
@@ -184,6 +179,4 @@
     padding: 7px 0;
     font-weight: 400;
   }
-
-
 }
