@@ -9,7 +9,7 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  background-image: url("https://pbs.twimg.com/media/FE3pM9LVkAgVg7w?format=jpg&name=orig");
+  background-image: url("../public/assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -104,6 +104,7 @@
 }
 
 .arrow {
+  height: 20px;
   width: 20px;
   user-select: none;
 }
