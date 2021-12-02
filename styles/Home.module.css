@@ -9,7 +9,7 @@
   flex: 1;
   display: flex;
   justify-content: space-between;
-  background-image: url("https://pbs.twimg.com/media/FE3pM9LVkAgVg7w?format=jpg&name=orig");
+  background-image: url("../public/assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -21,7 +21,6 @@
 
 .left {
   width: 50%;
-  /*outline: 2px solid red;*/
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -31,7 +30,6 @@
 
 .atas {
   padding-left: 350px;
-  /*outline: 2px solid red;*/
 }
 
 .logo {
@@ -40,6 +38,7 @@
   margin-bottom: 40px;
   padding: 0;
   text-align: left;
+  user-select: none;
 }
 
 .title {
@@ -60,16 +59,15 @@
 
 .mascot {
   width: 550px;
+  user-select: none;
 }
 
 .right {
   width: 50%;
   display: flex;
-  /*margin-left: 200px;*/
 }
 
 .docsEx {
-  /*outline: 2px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,6 +103,12 @@
   padding: 7px 0;
 }
 
+.arrow {
+  height: 20px;
+  width: 20px;
+  user-select: none;
+}
+
 .ex {
   margin: 0;
   color: #707070;
@@ -121,7 +125,6 @@
 
   .atas {
     padding-left: 275px;
-    /*outline: 2px solid red;*/
   }
 
   .logo {
@@ -177,6 +180,4 @@
     padding: 7px 0;
     font-weight: 400;
   }
-
-
 }
