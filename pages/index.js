@@ -20,7 +20,7 @@ const MainApp = () => {
       <div className={styles.main}>
         <div className={styles.left}>
           <div className={styles.atas}>
-            <Image src={logo} alt='logo' unoptimized={true}/>
+            <Image src={logo} alt='logo'/>
             <br/>
             <h1 className={styles.title}>Welcome to Lyrid</h1>
             <p className={styles.subtitle}>Get started by editing your Next.JS Application.
@@ -29,7 +29,7 @@ const MainApp = () => {
             </p>
           </div>
           <div>
-            <Image src={mascot} alt='mascot putih' unoptimized={true}/>
+            <Image src={mascot} alt='mascot putih'/>
           </div>
         </div>
         <div className={styles.right}>
