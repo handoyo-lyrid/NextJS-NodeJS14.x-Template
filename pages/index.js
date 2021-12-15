@@ -38,7 +38,7 @@ const MainApp = () => {
               <div>
                 <div className={styles.boxTitle}>
                   <h5 className={styles.docs}>Documentation</h5>
-                  <Image className={styles.arrow} src={Arrow} width={20} height={20} alt='right-arrow' unoptimized={true}/>
+                  <Image className={styles.arrow} src={Arrow} width={20} height={20} alt='right-arrow'/>
                 </div>
                 <p className={styles.ex}>Find in-depth information about Lyrid features and API.</p>
               </div>
@@ -47,7 +47,7 @@ const MainApp = () => {
               <div>
                 <div className={styles.boxTitle}>
                   <h5 className={styles.docs}>Examples</h5>
-                  <Image className={styles.arrow} src={Arrow} width={20} height={20} alt='right-arrow' unoptimized={true}/>
+                  <Image className={styles.arrow} src={Arrow} width={20} height={20} alt='right-arrow'/>
                 </div>
                 <p className={styles.ex}>Discover and deploy boilerplate example Next.js projects.</p>
               </div>
